@@ -1,2 +1,6 @@
-total_penjualan,nilai_voucher_terpakai
-100000,20000
+invoice_number,harga_jual,jumlah_produk_dibeli,nilai_voucher_toko_terpakai
+INV001,100000,2,50000
+INV002,75000,1,0
+INV003,250000,3,10000
+INV004,50000,4,15000
+INV005,120000,2,20000
