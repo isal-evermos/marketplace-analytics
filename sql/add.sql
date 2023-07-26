@@ -1,0 +1,26 @@
+ALTER TABLE broadcast_task ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE client_credential ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE contact_sync_log ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer_insight ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer_insight_component ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer_insight_component_group ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer_tag ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE customer_tag_association ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE device_group ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE device_type ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE merchant ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE message_status ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE message_template ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE message_template_global_variable ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE message_template_group ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE message_template_group_association ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE role ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE team ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE team_membership ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE user_device ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE workflow ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE workflow_task ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE workflow_task_rule ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+ALTER TABLE workflow_version ADD COLUMN "meta_updated_at" TIMESTAMPTZ DEFAULT NOW();
+
